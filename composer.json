@@ -1,0 +1,44 @@
+{
+    "name": "amuone/laravel-blade",
+    "description": "Cli to make blade for laravel 5.8 and up",
+    "keywords": [
+        "amuone",
+        "laravel",
+        "blade",
+        "make"
+    ],
+    "support": {
+        "issues": "https://github.com/amuone/laravel-blade/issues"
+    },
+    "homepage": "https://github.com/amuone/laravel-blade",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Amuone\\Blade\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kishor Rajbanshi",
+            "email": "kishorrajbanshi00@gmail.com",
+            "homepage": "https://www.amuone.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "^7.2|^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amuone\\Blade\\BladeProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
