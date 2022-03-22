@@ -32,7 +32,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Amuone\\Blade\\BladeProvider"
+                "Amuone\\Blade\\BladeServiceProvider"
             ]
         }
     },
